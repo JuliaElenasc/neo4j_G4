@@ -12,9 +12,19 @@ def run_query(query):
         result = session.run(query)
         return result.data()
 
-# QUERY TEST
-query = "MATCH (n) RETURN n " 
+# QUERY1: presentare la lista di tutte le piste in ordine di difficoltà 
+query = " MATCH (p:Piste) RETURN p.piste, p.dificult ORDER BY p.dificult DESC" 
 results = run_query(query)
+print('LISTA DELLE PISTE IN ORDINE DI DIFFICOLTA')
+print("---------------------------")
 print(results)
+
+# QUERY2: presentare la lista delle sole piste aperte
+query = "MATCH (p:Piste {status: 'Opened'}) RETURN p.piste, p.status" 
+results = run_query(query)
+print('LISTA DELLE PISTE APERTE')
+print("---------------------------")
+print(results)
+
 
 driver.close()
