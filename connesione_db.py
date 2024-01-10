@@ -12,19 +12,41 @@ def run_query(query):
         result = session.run(query)
         return result.data()
 
-# QUERY1: presentare la lista di tutte le piste in ordine di difficoltà 
-query = " MATCH (p:Piste) RETURN p.piste, p.dificult ORDER BY p.dificult DESC" 
-results = run_query(query)
-print('LISTA DELLE PISTE IN ORDINE DI DIFFICOLTA')
-print("---------------------------")
-print(results)
+#Inizio dalla App
+print('----------------------------------------------------')
+print('----------------------------------------------------')
+print('Benvenuto alla app per sciatori, scegli una opzione:')
+print('1. Vedere piste in ordine di difficoltà')
+print('2. Vedere piste aperte')
+print('3. Cercare il miglior percorso')
+print('4. Uscire')
 
-# QUERY2: presentare la lista delle sole piste aperte
-query = "MATCH (p:Piste {status: 'Opened'}) RETURN p.piste, p.status" 
-results = run_query(query)
-print('LISTA DELLE PISTE APERTE')
-print("---------------------------")
-print(results)
 
+while True:
+    menu= int(input('inserisci il numero dalla opzione (1,2,3 o 4):'))
+    if menu ==1:
+        # QUERY1: presentare la lista di tutte le piste in ordine di difficoltà 
+        query = " MATCH (p:Piste) RETURN p.piste, p.dificult ORDER BY p.dificult DESC" 
+        results = run_query(query)
+        print('LISTA DELLE PISTE IN ORDINE DI DIFFICOLTA')
+        print("---------------------------")
+        print(results)
+        input("Premi Enter per tornare al menu...")
+    elif menu==2:
+        # QUERY2: presentare la lista delle sole piste aperte
+        query = "MATCH (p:Piste {status: 'Opened'}) RETURN p.piste, p.status" 
+        results = run_query(query)
+        print('LISTA DELLE PISTE APERTE')
+        print("---------------------------")
+        print(results)
+        input("Premi Enter per tornare al menu...")
+            
+    elif menu==3:
+        print('opzione in lavoro')
+        input("Premi Enter per tornare al menu...")
+
+    elif menu == 4:
+        print('Grazie per la visita, arrivederci')
+        break 
 
 driver.close()
