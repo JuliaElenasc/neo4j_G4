@@ -1,0 +1,368 @@
+﻿id_piste;mountain;piste;status;color;dificult
+1;Courchevel valley;Altiport;Opened;#00A0FF;blue
+2;Courchevel valley;Altipôle;Opened;#D71B0D;red
+3;Courchevel valley;Amoureux;Opened;#D71B0D;red
+4;Courchevel valley;Américain;Opened;#D71B0D;red
+5;Courchevel valley;Anémones;Opened;#00A0FF;blue
+6;Courchevel valley;Ariondaz;Opened;#00A0FF;blue
+7;Courchevel valley;Arolles;Opened;#00A0FF;blue
+8;Courchevel valley;Bel Air;Opened;#D71B0D;red
+9;Courchevel valley;Bellecôte;Opened;#32A071;green
+10;Courchevel valley;Bellecôte-Pralong;Opened;#32A071;green
+11;Courchevel valley;Belvédère;Opened;#32A071;green
+12;Courchevel valley;Belvédère-Granges;Opened;#32A071;green
+13;Courchevel valley;Biollay;Opened;#00A0FF;blue
+14;Courchevel valley;Biollay-Verdons;Opened;#00A0FF;blue
+15;Courchevel valley;Bosses;Opened;#000;black
+16;Courchevel valley;Bouc Blanc;Opened;#D71B0D;red
+17;Courchevel valley;Brigues;Opened;#D71B0D;red
+18;Courchevel valley;Cave des Creux;Opened;#D71B0D;red
+19;Courchevel valley;Chabichou;Opened;#00A0FF;blue
+20;Courchevel valley;Chanrossa;Opened;#000;black
+21;Courchevel valley;Chapelets;Opened;#D71B0D;red
+22;Courchevel valley;Chenus;Opened;#D71B0D;red
+23;Courchevel valley;Col de la Loze;Opened;#00A0FF;blue
+24;Courchevel valley;Combe de la Saulire;Opened;#D71B0D;red
+25;Courchevel valley;Combe des Pylônes;Opened;#000;black
+26;Courchevel valley;Coqs;Opened;#D71B0D;red
+27;Courchevel valley;Cospillot;Opened;#00A0FF;blue
+28;Courchevel valley;Creux;Opened;#00A0FF;blue
+29;Courchevel valley;Cèpes;Opened;#00A0FF;blue
+30;Courchevel valley;Dou des Lanches;Opened;#000;black
+31;Courchevel valley;Dou du Midi;Opened;#D71B0D;red
+32;Courchevel valley;Déviation 1550;Opened;#D71B0D;red
+33;Courchevel valley;Easy Way;Opened;#00A0FF;blue
+34;Courchevel valley;Eclipse;Closed;#000;black
+35;Courchevel valley;Folyères;Opened;#00A0FF;blue
+36;Courchevel valley;Freeride Lab;Forecast;#D71B0D;red
+37;Courchevel valley;Gentianes;Opened;#00A0FF;blue
+38;Courchevel valley;Grand Couloir;Opened;#000;black
+39;Courchevel valley;Grandes Bosses;Opened;#D71B0D;red
+40;Courchevel valley;Grandes Combes;Opened;#00A0FF;blue
+41;Courchevel valley;Granges;Opened;#00A0FF;blue
+42;Courchevel valley;Gravelles;Opened;#00A0FF;blue
+43;Courchevel valley;Head Slalom Park;Closed;#D71B0D;red
+44;Courchevel valley;Indiens;Opened;#00A0FF;blue
+45;Courchevel valley;Jantzen;Opened;#D71B0D;red
+46;Courchevel valley;Jardin Alpin;Opened;#32A071;green
+47;Courchevel valley;Jardin d'enfants Tania;Opened;#32A071;green
+48;Courchevel valley;Jean Blanc;Opened;#000;black
+49;Courchevel valley;Jean Pachod;Opened;#D71B0D;red
+50;Courchevel valley;Kodiak Area;Opened;#32A071;green
+51;Courchevel valley;Lac Ariondaz;Opened;#00A0FF;blue
+52;Courchevel valley;Lac Bleu;Opened;#00A0FF;blue
+53;Courchevel valley;Lac des Creux;Opened;#00A0FF;blue
+54;Courchevel valley;Lanches;Opened;#D71B0D;red
+55;Courchevel valley;Loze;Opened;#D71B0D;red
+56;Courchevel valley;Loze Est;Opened;#32A071;green
+57;Courchevel valley;M;Opened;#000;black
+58;Courchevel valley;Marmottes;Opened;#D71B0D;red
+59;Courchevel valley;Marquetty;Opened;#D71B0D;red
+60;Courchevel valley;Marquis;Opened;#00A0FF;blue
+61;Courchevel valley;Montagnes Russes;Opened;#00A0FF;blue
+62;Courchevel valley;Moretta Blanche;Closed;#D71B0D;red
+63;Courchevel valley;Moriond;Opened;#32A071;green
+64;Courchevel valley;Moriond - Carabosse;Closed;#00A0FF;blue
+65;Courchevel valley;Moriond - Natural Canyon;Closed;#00A0FF;blue
+66;Courchevel valley;Moriond - Western Ski Park;Opened;#32A071;green
+67;Courchevel valley;Mousserons;Opened;#00A0FF;blue
+68;Courchevel valley;Mur;Opened;#000;black
+69;Courchevel valley;Murette;Opened;#D71B0D;red
+70;Courchevel valley;Park City;Opened;#D71B0D;red
+71;Courchevel valley;Petit Dou;Opened;#D71B0D;red
+72;Courchevel valley;Petit Lac;Opened;#00A0FF;blue
+73;Courchevel valley;Petit Moriond;Opened;#00A0FF;blue
+74;Courchevel valley;Petite Bosse;Opened;#32A071;green
+75;Courchevel valley;Plan Fontaine;Opened;#32A071;green
+76;Courchevel valley;Plan Mugnier;Opened;#00A0FF;blue
+77;Courchevel valley;Plan du Lac;Opened;#00A0FF;blue
+78;Courchevel valley;Plan du Vah;Closed;#D71B0D;red
+79;Courchevel valley;Plantrey;Opened;#32A071;green
+80;Courchevel valley;Praline;Opened;#32A071;green
+81;Courchevel valley;Pralong;Opened;#00A0FF;blue
+82;Courchevel valley;Pralong-Suisses;Opened;#00A0FF;blue
+83;Courchevel valley;Praméruel;Opened;#00A0FF;blue
+84;Courchevel valley;Provères;Opened;#00A0FF;blue
+85;Courchevel valley;Pyramides;Opened;#00A0FF;blue
+86;Courchevel valley;Rama;Opened;#00A0FF;blue
+87;Courchevel valley;Renards;Opened;#32A071;green
+88;Courchevel valley;Roc Merlet;Opened;#D71B0D;red
+89;Courchevel valley;Roc Mugnier;Opened;#D71B0D;red
+90;Courchevel valley;Rochers;Opened;#D71B0D;red
+91;Courchevel valley;Saint Bon;Closed;#D71B0D;red
+92;Courchevel valley;Signal;Opened;#00A0FF;blue
+93;Courchevel valley;Sources;Opened;#00A0FF;blue
+94;Courchevel valley;Stade Croisette;Closed;#D71B0D;red
+95;Courchevel valley;Stade Emile Allais;Closed;#D71B0D;red
+96;Courchevel valley;Stade Moriond;Closed;#D71B0D;red
+97;Courchevel valley;Stade Tania;Closed;#D71B0D;red
+98;Courchevel valley;Stade Village;Closed;#D71B0D;red
+99;Courchevel valley;Suisses;Opened;#000;black
+100;Courchevel valley;Super Pralong;Opened;#00A0FF;blue
+101;Courchevel valley;Tetras;Opened;#D71B0D;red
+102;Courchevel valley;Tovets;Opened;#00A0FF;blue
+103;Courchevel valley;Téléphone;Opened;#000;black
+104;Courchevel valley;Verdons;Opened;#32A071;green
+105;Courchevel valley;Village des Enfants;Opened;#32A071;green
+106;Courchevel valley;Vizelle-Combe;Opened;#D71B0D;red
+107;Courchevel valley;Vizelle-Creux;Opened;#00A0FF;blue
+108;Courchevel valley;Zen Ferme;Opened;#32A071;green
+109;Courchevel valley;Zen Mickey;Opened;#32A071;green
+110;Courchevel valley;Zen Practice;Opened;#32A071;green
+111;Courchevel valley;Zen Tania G2;Opened;#32A071;green
+112;Meribel Valley;Aigle;Opened;#D71B0D;red
+113;Meribel Valley;Alouette;Opened;#D71B0D;red
+114;Meribel Valley;Bartavelle;Opened;#000;black
+115;Meribel Valley;Biche;Opened;#00A0FF;blue
+116;Meribel Valley;Blaireau;Opened;#D71B0D;red
+117;Meribel Valley;Blanchot;Opened;#32A071;green
+118;Meribel Valley;Bosses;Opened;#000;black
+119;Meribel Valley;Boulevard Loze;Closed;#00A0FF;blue
+120;Meribel Valley;Bouvreuil Bleue;Opened;#00A0FF;blue
+121;Meribel Valley;Bouvreuil Rouge;Opened;#D71B0D;red
+122;Meribel Valley;Bumpy Run - Bump'N'Jump;Opened;#32A071;green
+123;Meribel Valley;Buse;Opened;#D71B0D;red
+124;Meribel Valley;Campagnol;Opened;#D71B0D;red
+125;Meribel Valley;Chamois;Opened;#D71B0D;red
+126;Meribel Valley;Chardonneret Bleue;Opened;#00A0FF;blue
+127;Meribel Valley;Chardonneret Rouge;Opened;#D71B0D;red
+128;Meribel Valley;Chatelet;Opened;#00A0FF;blue
+129;Meribel Valley;Choucas;Opened;#00A0FF;blue
+130;Meribel Valley;Combe Tougnète;Opened;#D71B0D;red
+131;Meribel Valley;Combe du Laitelet;Closed;#D71B0D;red
+132;Meribel Valley;Combe du Vallon;Opened;#D71B0D;red
+133;Meribel Valley;Coqs;Opened;#D71B0D;red
+134;Meribel Valley;Couloir Tournier Vertical Xperience;Closed;#000;black
+135;Meribel Valley;Crêtes;Opened;#00A0FF;blue
+136;Meribel Valley;Daguet;Closed;#D71B0D;red
+137;Meribel Valley;Dahu;Opened;#D71B0D;red
+138;Meribel Valley;Doron;Opened;#00A0FF;blue
+139;Meribel Valley;Ecureuil;Opened;#000;black
+140;Meribel Valley;Escargot;Opened;#32A071;green
+141;Meribel Valley;Eterlou;Closed;#D71B0D;red
+142;Meribel Valley;Face;Opened;#000;black
+143;Meribel Valley;Faon;Opened;#00A0FF;blue
+144;Meribel Valley;Forêt;Opened;#32A071;green
+145;Meribel Valley;Fouine;Opened;#D71B0D;red
+146;Meribel Valley;Funny Run - Bump'N'Jump;Opened;#32A071;green
+147;Meribel Valley;Geai;Opened;#00A0FF;blue
+148;Meribel Valley;Gelinotte;Opened;#00A0FF;blue
+149;Meribel Valley;Grande Rosière;Opened;#000;black
+150;Meribel Valley;Grive;Opened;#00A0FF;blue
+151;Meribel Valley;Gypaète;Opened;#D71B0D;red
+152;Meribel Valley;Hulotte;Opened;#00A0FF;blue
+153;Meribel Valley;Ibex;Opened;#000;black
+154;Meribel Valley;Jn'Bee;Opened;#00A0FF;blue
+155;Meribel Valley;Julie;Opened;#D71B0D;red
+156;Meribel Valley;Lac de la Chambre Bleue;Opened;#00A0FF;blue
+157;Meribel Valley;Lac de la Chambre Rouge;Opened;#D71B0D;red
+158;Meribel Valley;Lapin;Opened;#00A0FF;blue
+159;Meribel Valley;Little Himalaya;Opened;#32A071;green
+160;Meribel Valley;Lièvre;Opened;#00A0FF;blue
+161;Meribel Valley;Marcassin;Opened;#D71B0D;red
+162;Meribel Valley;Marmotte;Opened;#00A0FF;blue
+163;Meribel Valley;Martre;Opened;#00A0FF;blue
+164;Meribel Valley;Mauduit;Opened;#D71B0D;red
+165;Meribel Valley;Mouflon;Opened;#D71B0D;red
+166;Meribel Valley;Mûres Rouges;Opened;#00A0FF;blue
+167;Meribel Valley;Niverolle;Opened;#D71B0D;red
+168;Meribel Valley;Open Park - Boardercross;Opened;#00A0FF;blue
+169;Meribel Valley;Open Park - Half Pipe;Opened;#00A0FF;blue
+170;Meribel Valley;Open Park - Turn & Run;Opened;#00A0FF;blue
+171;Meribel Valley;Open Park - Zone Pros;Opened;#000;black
+172;Meribel Valley;Open Park - Zone Rookies;Opened;#00A0FF;blue
+173;Meribel Valley;Open Park - Zone Rookies;Opened;#D71B0D;red
+174;Meribel Valley;Ours;Opened;#00A0FF;blue
+175;Meribel Valley;Ourson;Opened;#32A071;green
+176;Meribel Valley;Perdrix;Opened;#32A071;green
+177;Meribel Valley;Pic Bleu;Opened;#00A0FF;blue
+178;Meribel Valley;Piste Des Animaux;Opened;#32A071;green
+179;Meribel Valley;Piste Des Inuits;Opened;#32A071;green
+180;Meribel Valley;Pouillard;Opened;#D71B0D;red
+181;Meribel Valley;Raffort;Opened;#00A0FF;blue
+182;Meribel Valley;Renard;Opened;#D71B0D;red
+183;Meribel Valley;Renardeau;Opened;#00A0FF;blue
+184;Meribel Valley;Rhodos;Opened;#32A071;green
+185;Meribel Valley;Roc De Fer;Opened;#00A0FF;blue
+186;Meribel Valley;Sanglier;Opened;#000;black
+187;Meribel Valley;Sittelle;Opened;#00A0FF;blue
+188;Meribel Valley;Speedy Run - Bump'N'Jump;Closed;#D71B0D;red
+189;Meribel Valley;Stade Corbey;Closed;#000;black
+190;Meribel Valley;Stade de Slalom;Forecast;#D71B0D;red
+191;Meribel Valley;Tetras;Opened;#000;black
+192;Meribel Valley;Truite;Opened;#32A071;green
+193;Meribel Valley;Venturon;Opened;#D71B0D;red
+194;Meribel Valley;Villages;Closed;#D71B0D;red
+195;Meribel Valley;Yéti Park;Opened;#32A071;green
+196;Les Menuires Saint Martin;3 Marches;Opened;#00A0FF;blue
+197;Les Menuires Saint Martin;4 Vents;Opened;#D71B0D;red
+198;Les Menuires Saint Martin;Aiglon;Opened;#D71B0D;red
+199;Les Menuires Saint Martin;Allamands;Opened;#D71B0D;red
+200;Les Menuires Saint Martin;Allée;Opened;#D71B0D;red
+201;Les Menuires Saint Martin;Alpage Bas;Opened;#D71B0D;red
+202;Les Menuires Saint Martin;Alpage Haut;Opened;#D71B0D;red
+203;Les Menuires Saint Martin;BD GURY;Opened;#00A0FF;blue
+204;Les Menuires Saint Martin;BD Sunny;Opened;#00A0FF;blue
+205;Les Menuires Saint Martin;Bd Becca;Opened;#00A0FF;blue
+206;Les Menuires Saint Martin;Bd Doron;Opened;#32A071;green
+207;Les Menuires Saint Martin;Bd Echauds;Opened;#00A0FF;blue
+208;Les Menuires Saint Martin;Bd France;Opened;#00A0FF;blue
+209;Les Menuires Saint Martin;Bd Girauds;Opened;#00A0FF;blue
+210;Les Menuires Saint Martin;Bd Lac;Opened;#00A0FF;blue
+211;Les Menuires Saint Martin;Bd Lance;Opened;#D71B0D;red
+212;Les Menuires Saint Martin;Bd Loy;Closed;#00A0FF;blue
+213;Les Menuires Saint Martin;Bd Masse;Opened;#32A071;green
+214;Les Menuires Saint Martin;Bd Tête;Opened;#00A0FF;blue
+215;Les Menuires Saint Martin;Bd du Mollard;Opened;#00A0FF;blue
+216;Les Menuires Saint Martin;Becca;Opened;#D71B0D;red
+217;Les Menuires Saint Martin;Bettex Bas;Opened;#00A0FF;blue
+218;Les Menuires Saint Martin;Bettex Haut;Opened;#00A0FF;blue
+219;Les Menuires Saint Martin;Biolley.;Opened;#00A0FF;blue
+220;Les Menuires Saint Martin;Bouquetin;Opened;#00A0FF;blue
+221;Les Menuires Saint Martin;Boyes;Opened;#00A0FF;blue
+222;Les Menuires Saint Martin;Bruyères;Opened;#00A0FF;blue
+223;Les Menuires Saint Martin;Chemin Vallons;Opened;#00A0FF;blue
+224;Les Menuires Saint Martin;Cherferie;Opened;#D71B0D;red
+225;Les Menuires Saint Martin;Crêtes;Opened;#D71B0D;red
+226;Les Menuires Saint Martin;Cumin Bas;Opened;#00A0FF;blue
+227;Les Menuires Saint Martin;Côte Brulée;Opened;#00A0FF;blue
+228;Les Menuires Saint Martin;Dame Blanche;Opened;#000;black
+229;Les Menuires Saint Martin;David Douillet Bas;Opened;#D71B0D;red
+230;Les Menuires Saint Martin;David Douillet Haut;Opened;#D71B0D;red
+231;Les Menuires Saint Martin;Enverses;Opened;#00A0FF;blue
+232;Les Menuires Saint Martin;Evons;Opened;#D71B0D;red
+233;Les Menuires Saint Martin;Fontanettes;Opened;#32A071;green
+234;Les Menuires Saint Martin;Fred Covili;Opened;#D71B0D;red
+235;Les Menuires Saint Martin;Friendly Natural Park;Opened;#00A0FF;blue
+236;Les Menuires Saint Martin;Gaston;Opened;#00A0FF;blue
+237;Les Menuires Saint Martin;Grand Lac;Opened;#00A0FF;blue
+238;Les Menuires Saint Martin;Grandes Combes;Closed;#D71B0D;red
+239;Les Menuires Saint Martin;Gros Tougne Bas;Opened;#00A0FF;blue
+240;Les Menuires Saint Martin;Gros Tougne Haut;Opened;#00A0FF;blue
+241;Les Menuires Saint Martin;Jardin Bruyères;Opened;#32A071;green
+242;Les Menuires Saint Martin;Jardin Menuires;Opened;#32A071;green
+243;Les Menuires Saint Martin;Jardin Plans;Opened;#32A071;green
+244;Les Menuires Saint Martin;Jardin Preyerand;Opened;#32A071;green
+245;Les Menuires Saint Martin;Jardin Reberty;Opened;#32A071;green
+246;Les Menuires Saint Martin;Jardin St Martin;Opened;#32A071;green
+247;Les Menuires Saint Martin;Jerusalem;Opened;#00A0FF;blue
+248;Les Menuires Saint Martin;Lac Combes;Opened;#00A0FF;blue
+249;Les Menuires Saint Martin;Lac Noir;Opened;#000;black
+250;Les Menuires Saint Martin;Liberty Ride Masse;Opened;#000;black
+251;Les Menuires Saint Martin;Liberty Ride Pylones;Opened;#000;black
+252;Les Menuires Saint Martin;Liberty Ride Riondaz;Opened;#000;black
+253;Les Menuires Saint Martin;Longet;Opened;#D71B0D;red
+254;Les Menuires Saint Martin;Léo Lacroix Bas;Opened;#000;black
+255;Les Menuires Saint Martin;Léo Lacroix Haut;Opened;#000;black
+256;Les Menuires Saint Martin;Masse;Opened;#000;black
+257;Les Menuires Saint Martin;Menuires;Opened;#00A0FF;blue
+258;Les Menuires Saint Martin;Montagnette;Opened;#32A071;green
+259;Les Menuires Saint Martin;Mont de la Chambre;Opened;#00A0FF;blue
+260;Les Menuires Saint Martin;Mur Rouge;Closed;#D71B0D;red
+261;Les Menuires Saint Martin;Paturages Bas;Opened;#00A0FF;blue
+262;Les Menuires Saint Martin;Paturages Haut;Opened;#00A0FF;blue
+263;Les Menuires Saint Martin;Pelozet;Opened;#00A0FF;blue
+264;Les Menuires Saint Martin;Pelvoux;Opened;#32A071;green
+265;Les Menuires Saint Martin;Petits Creux;Opened;#00A0FF;blue
+266;Les Menuires Saint Martin;Pixel Area Boarder;Opened;#00A0FF;blue
+267;Les Menuires Saint Martin;Pixel Area Snowpark;Opened;#00A0FF;blue
+268;Les Menuires Saint Martin;Plan Bouquet;Opened;#00A0FF;blue
+269;Les Menuires Saint Martin;Planes;Opened;#D71B0D;red
+270;Les Menuires Saint Martin;Plans;Opened;#00A0FF;blue
+271;Les Menuires Saint Martin;Pramint;Opened;#D71B0D;red
+272;Les Menuires Saint Martin;Preyerand Bas;Opened;#00A0FF;blue
+273;Les Menuires Saint Martin;Preyerand Haut;Opened;#00A0FF;blue
+274;Les Menuires Saint Martin;Rocher Noir;Opened;#000;black
+275;Les Menuires Saint Martin;Rochers.;Opened;#D71B0D;red
+276;Les Menuires Saint Martin;St Martin;Opened;#00A0FF;blue
+277;Les Menuires Saint Martin;Stade des Combes;Opened;#D71B0D;red
+278;Les Menuires Saint Martin;Stade de slalom;Closed;#D71B0D;red
+279;Les Menuires Saint Martin;Teppes;Opened;#D71B0D;red
+280;Les Menuires Saint Martin;Vallons;Opened;#00A0FF;blue
+281;Les Menuires Saint Martin;Verdet;Opened;#00A0FF;blue
+282;Les Menuires Saint Martin;Violette Bas;Opened;#32A071;green
+283;Les Menuires Saint Martin;Violette Haut;Opened;#32A071;green
+284;Les Menuires Saint Martin;accès Chasse;Closed;#D71B0D;red
+285;Val Thorens Orelle;2 Combes;Opened;#32A071;green
+286;Val Thorens Orelle;Accès UCPA;Opened;#00A0FF;blue
+287;Val Thorens Orelle;Adrien Théaux;Opened;#D71B0D;red
+288;Val Thorens Orelle;Ardoises;Opened;#D71B0D;red
+289;Val Thorens Orelle;Armoise;Opened;#000;black
+290;Val Thorens Orelle;Arolle;Opened;#000;black
+291;Val Thorens Orelle;Asters;Opened;#D71B0D;red
+292;Val Thorens Orelle;Bd Goitschel;Opened;#00A0FF;blue
+293;Val Thorens Orelle;Bd Rosaël;Opened;#00A0FF;blue
+294;Val Thorens Orelle;Bd Téléphérique;Opened;#00A0FF;blue
+295;Val Thorens Orelle;Beranger;Opened;#D71B0D;red
+296;Val Thorens Orelle;Blanchot;Opened;#00A0FF;blue
+297;Val Thorens Orelle;Bleuets;Opened;#00A0FF;blue
+298;Val Thorens Orelle;Boismint;Opened;#D71B0D;red
+299;Val Thorens Orelle;Bouchet;Closed;#D71B0D;red
+300;Val Thorens Orelle;Cairn;Opened;#00A0FF;blue
+301;Val Thorens Orelle;Campagnols;Opened;#32A071;green
+302;Val Thorens Orelle;Cascades;Opened;#000;black
+303;Val Thorens Orelle;Chalets;Opened;#00A0FF;blue
+304;Val Thorens Orelle;Chamois;Opened;#00A0FF;blue
+305;Val Thorens Orelle;Chardons;Opened;#D71B0D;red
+306;Val Thorens Orelle;Chasse;Closed;#D71B0D;red
+307;Val Thorens Orelle;Chocard;Opened;#00A0FF;blue
+308;Val Thorens Orelle;Christine;Opened;#D71B0D;red
+309;Val Thorens Orelle;Cime;Opened;#D71B0D;red
+310;Val Thorens Orelle;Col de l'Audzin;Opened;#D71B0D;red
+311;Val Thorens Orelle;Combe de Caron;Opened;#000;black
+312;Val Thorens Orelle;Combe de Peclet;Opened;#D71B0D;red
+313;Val Thorens Orelle;Combe de Rosaël;Opened;#000;black
+314;Val Thorens Orelle;Combe de Thorens;Opened;#32A071;green
+315;Val Thorens Orelle;Coraia;Opened;#D71B0D;red
+316;Val Thorens Orelle;Corniche;Opened;#00A0FF;blue
+317;Val Thorens Orelle;Cristaux;Opened;#000;black
+318;Val Thorens Orelle;Croissant;Opened;#D71B0D;red
+319;Val Thorens Orelle;Croix d'Antide;Opened;#00A0FF;blue
+320;Val Thorens Orelle;Cumin Haut;Opened;#00A0FF;blue
+321;Val Thorens Orelle;Dalles;Opened;#00A0FF;blue
+322;Val Thorens Orelle;Espace Juniors;Opened;#32A071;green
+323;Val Thorens Orelle;Eterlou;Opened;#00A0FF;blue
+324;Val Thorens Orelle;Falaise;Opened;#D71B0D;red
+325;Val Thorens Orelle;Flocon;Opened;#32A071;green
+326;Val Thorens Orelle;Fond Bas;Opened;#00A0FF;blue
+327;Val Thorens Orelle;Fond Haut;Opened;#00A0FF;blue
+328;Val Thorens Orelle;Gentiane;Opened;#00A0FF;blue
+329;Val Thorens Orelle;Gentianes;Opened;#00A0FF;blue
+330;Val Thorens Orelle;Génépi;Opened;#00A0FF;blue
+331;Val Thorens Orelle;Haute Combe;Opened;#D71B0D;red
+332;Val Thorens Orelle;Hermine;Opened;#00A0FF;blue
+333;Val Thorens Orelle;Lac Blanc;Opened;#D71B0D;red
+334;Val Thorens Orelle;Lagopède;Opened;#00A0FF;blue
+335;Val Thorens Orelle;Lauzes;Opened;#D71B0D;red
+336;Val Thorens Orelle;Lory;Opened;#00A0FF;blue
+337;Val Thorens Orelle;Marielle Goitschel;Opened;#000;black
+338;Val Thorens Orelle;Mauriennaise;Opened;#D71B0D;red
+339;Val Thorens Orelle;Moraine;Opened;#00A0FF;blue
+340;Val Thorens Orelle;Musaraigne;Opened;#32A071;green
+341;Val Thorens Orelle;Médaille;Opened;#D71B0D;red
+342;Val Thorens Orelle;Niverolle;Opened;#00A0FF;blue
+343;Val Thorens Orelle;Ours;Opened;#00A0FF;blue
+344;Val Thorens Orelle;Peyron;Opened;#00A0FF;blue
+345;Val Thorens Orelle;Plan de l'Eau;Opened;#D71B0D;red
+346;Val Thorens Orelle;Plateau;Opened;#00A0FF;blue
+347;Val Thorens Orelle;Plein Sud;Opened;#00A0FF;blue
+348;Val Thorens Orelle;Pluviomètre;Opened;#00A0FF;blue
+349;Val Thorens Orelle;Portette;Opened;#D71B0D;red
+350;Val Thorens Orelle;Retour Sud;Opened;#00A0FF;blue
+351;Val Thorens Orelle;Rhodos;Opened;#D71B0D;red
+352;Val Thorens Orelle;Roc;Opened;#32A071;green
+353;Val Thorens Orelle;SkiCross Jean Fred Chapuis;Opened;#D71B0D;red
+354;Val Thorens Orelle;Stade Chloé Trespeuch;Opened;#D71B0D;red
+355;Val Thorens Orelle;Tourbière;Opened;#32A071;green
+356;Val Thorens Orelle;Traversée Montaulever VT;Opened;#00A0FF;blue
+357;Val Thorens Orelle;Traversée des 2 Lacs;Opened;#32A071;green
+358;Val Thorens Orelle;Tétras;Opened;#00A0FF;blue
+359;Val Thorens Orelle;Tête Ronde;Opened;#00A0FF;blue
+360;Val Thorens Orelle;VT Family Park;Opened;#00A0FF;blue
+361;Val Thorens Orelle;VT Fun Ride;Opened;#32A071;green
+362;Val Thorens Orelle;VT Park;Opened;#D71B0D;red
+363;Val Thorens Orelle;Val Tho;Opened;#00A0FF;blue
+364;Val Thorens Orelle;Variante;Opened;#D71B0D;red
+365;Val Thorens Orelle;Vires;Opened;#D71B0D;red
+366;Val Thorens Orelle;Voie Lactée;Opened;#32A071;green
+367;Val Thorens Orelle;Voie de la Boucle;Opened;#00A0FF;blue
