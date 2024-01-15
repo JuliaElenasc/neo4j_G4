@@ -1,0 +1,77 @@
+﻿ID_rel;origen;destino;piste;status;color;dificult;time
+1;Slalom;Altiport;Blanchot;Opened;#32A071;1;20
+2;Saulire;Altiport;Piste Des Inuits;Opened;#32A071;1;45
+3;Col de la Loze;Slalom;Pic Bleu;Opened;#00A0FF;2;30
+4;Face;Les Alloues;Villages;Closed;#D71B0D;3;45
+5;Altiport;Meribel Village;Lapin;Opened;#00A0FF;2;46
+6;Altiport;Méribel Centre;Hulotte;Opened;#00A0FF;2;44
+7;Pas du Lac;Stade de slalom;Aigle;Opened;#D71B0D;3;30
+8;Combes;Stade de slalom;Martre;Opened;#00A0FF;2;30
+9;Méribel Mottaret;Stade de slalom;Ours;Opened;#00A0FF;2;20
+10;Mont Vallon;Méribel Mottaret;Combe du Vallon;Opened;#D71B0D;3;30
+11;3 Marches;Snowpark;Alouette;Opened;#D71B0D;3;20
+12;Mont De La Challe;Combes;Bartavelle;Opened;#000;4;35
+13;Pas Du Lac;Saulire;Biche;Opened;#00A0FF;2;30
+14;Cherferie;Bumpy Run;Blaireau;Opened;#D71B0D;3;20
+15;Funny Run;Lièvre;Bosses;Opened;#000;4;40
+16;Col De La Loze;La piste des nuits;Boulevard Loze;Closed;#00A0FF;2;46
+17;Snowpark;Plan Des Mains;Bouvreuil Bleue;Opened;#00A0FF;2;52
+18;Plan Des Mains;Plan Des Mains;Bouvreuil Rouge;Opened;#D71B0D;3;34
+19;Cherferie;Bumpy run;Buse;Opened;#D71B0D;3;23
+20;Mont Vallon;Plan Des Mains;Campagnol;Opened;#D71B0D;3;35
+21;Couloir Tournier ;Le Rond Point;Chamois;Opened;#D71B0D;3;25
+22;Pas Du Lac;Saulire;Chardonneret Bleue;Opened;#00A0FF;2;15
+23;Cherferie;Funny Run;Choucas;Opened;#00A0FF;2;15
+24;Tougnete;Speedy run;Combe Tougnète;Opened;#D71B0D;3;17
+25;Perdrix;Truite;Combe du Laitelet;Closed;#D71B0D;3;12
+26;Dahu;Perdrix;Coqs;Opened;#D71B0D;3;56
+27;Pas Du Lac;Chamois;Couloir Tournier Vertical Xperience;Closed;#000;4;23
+28;Face;Villages;Daguet;Closed;#D71B0D;3;45
+29;Tougnete;Combes;Dahu;Opened;#D71B0D;3;25
+30;Le Rond Point;La Chaudanne;Doron;Opened;#00A0FF;2;20
+31;Tougnete;Speedy run;Ecureuil;Opened;#000;4;15
+32;Funny Run;Funny Run;Escargot;Opened;#32A071;1;30
+33;Funny Run;Lièvre;Eterlou;Closed;#D71B0D;3;36
+34;Roc de Fer;Gélinotte;Face;Opened;#000;4;26
+35;Crêtes;Speedy run;Faon;Opened;#00A0FF;2;45
+36;Le Rond Point;Altiport;Forêt;Opened;#32A071;1;42
+37;Le roc;Martre;Fouine;Opened;#D71B0D;3;57
+38;Funny Run;Bump'N'Jump;Funny Run - Bump'N'Jump;Opened;#32A071;1;58
+39;Dent De Burgin;Rhodos;Geai;Opened;#00A0FF;2;36
+40;Funny Run;La Chaudanne;Gelinotte;Opened;#00A0FF;2;53
+41;Niverolle;Aigle;Grande Rosière;Opened;#000;4;39
+42;Caves;Speedy run;Grive;Opened;#00A0FF;2;42
+43;Choucas;Roc de Fer;Gypaète;Opened;#D71B0D;3;41
+44;3 Marches;Jn'bee;Ibex;Opened;#000;4;38
+45;Ibex;Sittelle;Jn'Bee;Opened;#00A0FF;2;36
+46;Mont De La Challe;Fouine;Julie;Opened;#D71B0D;3;48
+47;Val de Thorens;Plan Des Mains;Lac de la Chambre Bleue;Opened;#00A0FF;2;47
+48;Combes;Arolles;Little Himalaya;Opened;#32A071;1;40
+49;Speedy Run;La Chaudanne;Lièvre;Opened;#00A0FF;2;13
+50;Pas du Lac;Aigle;Marcassin;Opened;#D71B0D;3;18
+51;Blanchot;Rhodos;Marmotte;Opened;#00A0FF;2;26
+52;Pas du Lac;La Chaudanne;Mauduit;Opened;#D71B0D;3;45
+53;3 Marches;Sittelle;Mouflon;Opened;#D71B0D;3;22
+54;Plan Des Mains;Méribel Mottaret ;Mûres Rouges;Opened;#00A0FF;2;20
+55;Pas du Lac;Aigle;Niverolle;Opened;#D71B0D;3;53
+56;Snowpark;Snowpark;Open Park - Boardercross;Opened;#00A0FF;2;39
+57;Snowpark;Snowpark;Open Park - Half Pipe;Opened;#00A0FF;2;42
+58;Snowpark;Snowpark;Open Park - Turn & Run;Opened;#00A0FF;2;41
+59;Snowpark;Snowpark;Open Park - Zone Pros;Opened;#000;4;38
+60;Snowpark;Snowpark;Open Park - Zone Rookies;Opened;#00A0FF;2;36
+61;Snowpark;Snowpark;Open Park - Zone Rookies;Opened;#D71B0D;3;48
+62;Speedy Run;Truite;Perdrix;Opened;#32A071;1;47
+63;Slalom;Altiport;Piste Des Animaux;Opened;#32A071;1;40
+64;Fouine;Speedy run;Pouillard;Opened;#D71B0D;3;13
+65;Gélinotte;Le Raffort;Raffort;Opened;#00A0FF;2;18
+66;Pas du Lac;Renardeau;Renard;Opened;#D71B0D;3;26
+67;Blanchot;Slalom;Renardeau;Opened;#00A0FF;2;45
+68;Blanchot;Le Rond Point;Rhodos;Opened;#32A071;1;22
+69;Roc de Fer;La Chaudanne;Roc De Fer;Opened;#00A0FF;2;20
+70;Pas du Lac;Aigle;Sanglier;Opened;#000;4;34
+71;Ibex;Snowpark;Sittelle;Opened;#00A0FF;2;26
+72;Bumpy Run;Speedy Run;Speedy Run - Bump'N'Jump;Closed;#D71B0D;3;17
+73;Aigle;Arolles;Stade de Slalom;Forecast;#D71B0D;3;36
+74;Col de la Loze;Slalom;Tetras;Opened;#000;4;33
+75;Chalets;La Chaudanne;Truite;Opened;#32A071;1;28
+76;Val de Thorens;Bouvreuil;Venturon;Opened;#D71B0D;3;30

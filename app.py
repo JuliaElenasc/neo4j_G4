@@ -1,5 +1,8 @@
 #connessione DB
 from neo4j import GraphDatabase
+import traceback
+import pandas as pd
+
 
 uri = "neo4j+s://d2c276b4.databases.neo4j.io:7687"
 username = "neo4j"
@@ -11,6 +14,7 @@ def run_query(query):
     with driver.session() as session:
         result = session.run(query)
         return result.data()
+
 
 #Inizio dalla App
 print('----------------------------------------------------')
@@ -26,7 +30,7 @@ while True:
     menu= int(input('inserisci il numero dalla opzione (1,2,3 o 4):'))
     if menu ==1:
         # QUERY1: presentare la lista di tutte le piste in ordine di difficoltà 
-        query = " MATCH (p:Piste) RETURN p.piste, p.dificult ORDER BY p.dificult DESC" 
+        query = "MATCH (p:Piste)-[r:PATH]->() RETURN p.piste AS pist, r.difficolta AS dificult ORDER BY r.difficolta DESC" 
         results = run_query(query)
         print('LISTA DELLE PISTE IN ORDINE DI DIFFICOLTA')
         print("---------------------------")
