@@ -42,7 +42,9 @@ while True:
         results = run_query(query)
         print('LISTA DELLE PISTE APERTE')
         print("---------------------------")
-        print(results)
+        for result in results:
+            print(f"Pista: {result['p.piste']}, Stato: {result['p.status']}")
+
         input("Premi Enter per tornare al menu...")
             
     elif menu==3:
