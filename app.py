@@ -21,7 +21,7 @@ def run_query(query):
 #Inizio dalla App
 print('----------------------------------------------------')
 print('----------------------------------------------------')
-
+print('-----------------App 3 Vallées----------------------')
 
 while True:
     menu= int(input('''Sceglie una opzione:
