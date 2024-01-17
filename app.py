@@ -45,10 +45,10 @@ while True:
         query = "MATCH (p:Piste {status: 'Opened'}) RETURN p.piste, p.status" 
         results = run_query(query)
         print('LISTA DELLE PISTE APERTE')
-        headers = ['Pista', 'Status']
-        rows = [(result['p.piste'], result['p.status']) for result in results]
-        table = tabulate(rows, headers=headers, tablefmt='pretty')
-        print(table)
+        print("---------------------------")
+        for result in results:
+            print(f"Pista: {result['p.piste']}, Stato: {result['p.status']}")
+
         input("Premi Enter per tornare al menu...")
             
     elif menu==3:

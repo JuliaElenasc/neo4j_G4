@@ -1,0 +1,111 @@
+1
+CREATE (Altiport:Piste {piste: "Altiport"})-[:IMPIANTO {tipo: "cabinovia", durata: 10}]->(Chabichou:Piste {piste: "Chabichou"})
+CREATE (Chabichou)-[:IMPIANTO {tipo: "cabinovia", durata: 10}]->(Altiport)
+
+2
+CREATE (Altiport:Piste {piste: "Altiport"})-[:IMPIANTO {tipo: "cabinovia", durata: 18}]->(Altipôle:Piste {piste: "Altipôle"})
+CREATE (Altipôle)-[:IMPIANTO {tipo: "cabinovia", durata: 18}]->(Altiport)
+
+3
+CREATE (Amoureux:Piste {piste: "Amoureux"})-[:IMPIANTO {tipo: "cabinovia", durata: 22}]->(Arolles:Piste {piste: "Arolles"})
+CREATE (Arolles)-[:IMPIANTO {tipo: "cabinovia", durata: 22}]->(Amoureux)
+
+4
+CREATE (Cospillot:Piste {piste: "Cospillot"})-[:IMPIANTO {tipo: "cabinovia", durata: 8}]->(ColDeLaLoze:Piste {piste: "Col de la Loze"})
+CREATE (ColDeLaLoze)-[:IMPIANTO {tipo: "cabinovia", durata: 8}]->(Cospillot)
+
+5
+CREATE (CombeDeLaSaulire:Piste {piste: "Combe de la Saulire"})-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(GrandesCombes:Piste {piste: "Grandes Combes"})
+CREATE (GrandesCombes)-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(CombeDeLaSaulire)
+
+6
+CREATE (Ariondaz:Piste {piste: "Ariondaz"})-[:IMPIANTO {tipo: "cabinovia", durata: 13}]->(Arolles:Piste {piste: "Arolles"})
+CREATE (Arolles)-[:IMPIANTO {tipo: "cabinovia", durata: 13}]->(Ariondaz)
+
+7
+CREATE (Tovetz:Piste {piste: "Tovets"})-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(Arolles:Piste {piste: "Tetras"})
+CREATE (Tetras)-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(Tovetz)
+
+8
+CREATE (LozeEst:Piste {piste: "Loze Est"})-[:IMPIANTO {tipo: "cabinovia", durata: 7}]->(Rama:Piste {piste: "Rama"})
+CREATE (Rama)-[:IMPIANTO {tipo: "cabinovia", durata: 7}]->(LozeEst)
+
+9
+CREATE (JeanPachod:Piste {piste: "Jean Pachod"})-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(LacAriondaz:Piste {piste: "Lac Ariondaz"})
+CREATE (LacAriondaz)-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(JeanPachod)
+
+10
+CREATE (Chanrossa:Piste {piste: "Chanrossa"})-[:IMPIANTO {tipo: "cabinovia", durata: 11}]->(GrandCouloir:Piste {piste: "Grand Couloir"})
+CREATE (GrandCouloir)-[:IMPIANTO {tipo: "cabinovia", durata: 11}]->(Chanrossa)
+
+11
+CREATE (Bosses:Piste {piste: "Bosses"})-[:IMPIANTO {tipo: "cabinovia", durata: 10}]->(PetitMoriond:Piste {piste: "Petit Moriond"})
+CREATE (PetitMoriond)-[:IMPIANTO {tipo: "cabinovia", durata: 10}]->(Bosses)
+
+12
+CREATE (FreerideLab:Piste {piste: "Freeride Lab"})-[:IMPIANTO {tipo: "cabinovia", durata: 8}]->(Sources:Piste {piste: "Sources"})
+CREATE (Sources)-[:IMPIANTO {tipo: "cabinovia", durata: 8}]->(FreerideLab)
+
+13
+CREATE (Granges:Piste {piste: "Granges"})-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(Mousserons:Piste {piste: "Mousserons"})
+CREATE (Mousserons)-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(Granges)
+
+14
+CREATE (PetitLac:Piste {piste: "Petit Lac"})-[:IMPIANTO {tipo: "cabinovia", durata: 10}]->(Plantrey:Piste {piste: "Plantrey"})
+CREATE (Plantrey)-[:IMPIANTO {tipo: "cabinovia", durata: 10}]->(PetitLac)
+
+15
+CREATE (Prameruel:Piste {piste: "Praméruel"})-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(Provères:Piste {piste: "Provères"})
+CREATE (Provères)-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(Prameruel)
+
+16
+CREATE (Ariondaz:Piste {piste: "Ariondaz"})-[:IMPIANTO {tipo: "cabinovia", durata: 8}]->(PetitMoriond:Piste {piste: "Petit Moriond"})
+CREATE (PetitMoriond)-[:IMPIANTO {tipo: "cabinovia", durata: 8}]->(Ariondaz)
+
+17
+CREATE (Cospillot:Piste {piste: "Cospillot"})-[:IMPIANTO {tipo: "cabinovia", durata: 10}]->(Sources:Piste {piste: "Sources"})
+CREATE (Sources)-[:IMPIANTO {tipo: "cabinovia", durata: 10}]->(Cospillot)
+
+18
+CREATE (JeanPachod:Piste {piste: "JeanPachod"})-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(PetitLac:Piste {piste: "Petit Lac"})
+CREATE (PetitLac)-[:IMPIANTO {tipo: "cabinovia", durata: 12}]->(JeanPachod)
+
+19
+CREATE (Rama:Piste {piste: "Rama"})-[:IMPIANTO {tipo: "cabinovia", durata: 10}]->(Granges:Piste {piste: "Granges"})
+CREATE (Granges)-[:IMPIANTO {tipo: "cabinovia", durata: 10}]->(Rama)
+
+
+20
+CREATE (Biollay:Piste {piste: "Biollay"})-[:IMPIANTO {tipo: "skilift", durata: 4}]->(CombeDesPylones:Piste {piste: "Combe des Pylônes"})
+
+21
+CREATE (CaveDesCreux:Piste {piste: "Cave des Creux"})-[:IMPIANTO {tipo: "skilift", durata: 6}]->(Chabichou:Piste {piste: "Chabichou"})
+
+22
+CREATE (Plantrey:Piste {piste: "Plantrey"})-[:IMPIANTO {tipo: "skilift", durata: 3}]->(Suisses:Piste {piste: "Suisses"})
+
+23
+CREATE (Renards:Piste {piste: "Renards"})-[:IMPIANTO {tipo: "skilift", durata: 3}]->(Marquetty:Piste {piste: "Marquetty"})
+
+24
+CREATE (Bellecôte:Piste {piste: "Bellecôte"})-[:IMPIANTO {tipo: "skilift", durata: 5}]->(Creux:Piste {piste: "Creux"})
+
+25
+CREATE (Arolles:Piste {piste: "Arolles"})-[:IMPIANTO {tipo: "seggiovia", durata: 15}]->(Bosses:Piste {piste: "Bosses"})
+
+26
+CREATE (Gentianes:Piste {piste: "Gentianes"})-[:IMPIANTO {tipo: "seggiovia", durata: 22}]->(JardinAlpin:Piste {piste: "Jardin Alpin"})
+
+27
+CREATE (GrandCouloir:Piste {piste: "Grand Couloir"})-[:IMPIANTO {tipo: "seggiovia", durata: 22}]->(Marmottes:Piste {piste: "Marmottes"})
+
+28
+CREATE (Verdons:Piste {piste: "Verdons"})-[:IMPIANTO {tipo: "seggiovia", durata: 18}]->(MontagnesRusses:Piste {piste: "Montagnes Russes"})
+
+29
+CREATE (RocMerlet:Piste {piste: "Roc Merlet"})-[:IMPIANTO {tipo: "seggiovia", durata: 25}]->(RocMugnier:Piste {piste: "Roc Mugnier"})
+
+30
+CREATE (Arolles:Piste {piste: "Arolles"})-[:IMPIANTO {tipo: "seggiovia", durata: 15}]->(Verdons:Piste {piste: "Verdons"})
+
+
