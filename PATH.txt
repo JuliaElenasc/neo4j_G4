@@ -1,0 +1,316 @@
+CREATE (Slalom:Piste {piste: "Slalom"})-[:PATH {piste: "Altiport", status: "Opened", difficolta: 1, durata: 20}]->(Altiport:Piste {piste: "Altiport"})---> hecha
+
+
+CREATE (Col de la Loze:Piste {piste: "Col de la Loze"})-[:PATH{piste:"Slalom", status: "Opened", difficolta: 2, durata: 30}]->(Slalom:Piste {piste: "Slalom"})
+CREATE (Face:Piste {piste: "Face"})-[:PATH{piste:"Les Alloues", status: "Closed", difficolta: 3, durata: 45}]->(Les Alloues:Piste {piste: "Les Alloues"})
+
+CREATE (Altiport:Piste {piste: "Altiport"})-[:PATH {piste: "Meribel Village", status: "Opened", difficolta: 2, durata: 46}]->(MeribelVillage:Piste {piste: "Meribel Village"}),
+
+CREATE (Altiport:Piste {piste: "Altiport"})-[:PATH {piste: "Méribel Centre", status: "Opened", difficolta: 2, durata: 44}]->(MeribelCentre:Piste {piste: "Méribel Centre"}),
+
+CREATE (PasDuLac:Piste {piste: "Pas du Lac"})-[:PATH {piste: "Stade de slalom", status: "Opened", difficolta: 3, durata: 30}]->(StadeDeSlalom:Piste {piste: "Stade de slalom"}),
+
+CREATE (Combes:Piste {piste: "Combes"})-[:PATH {piste: "Stade de slalom", status: "Opened", difficolta: 2, durata: 30}]->(StadeDeSlalom:Piste {piste: "Stade de slalom"}),
+
+CREATE (MéribelMottaret:Piste {piste: "Méribel Mottaret"})-[:PATH {piste: "Stade de slalom", status: "Opened", difficolta: 2, durata: 20}]->(StadeDeSlalom:Piste {piste: "Stade de slalom"}),
+
+
+CREATE (MontVallon:Piste {piste: "Mont Vallon"})-[:PATH {piste: "Méribel Mottaret", status: "Opened", difficolta: 3, durata: 30}]->(MéribelMottaret:Piste {piste: "Méribel Mottaret"}),
+
+CREATE (3Marches:Piste {piste: "3 Marches"})-[:PATH {piste: "Snowpark", status: "Opened", difficolta: 3, durata: 20}]->(Snowpark:Piste {piste: "Snowpark"}) --->corregir
+
+CREATE (MontDeLaChalle:Piste {piste: "Mont De La Challe"})-[:PATH {piste: "Combes", status: "Opened", difficolta: 4, durata: 35}]->(Combes:Piste {piste: "Combes"}),
+
+CREATE (PasDuLac:Piste {piste: "Pas Du Lac"})-[:PATH {piste: "Saulire", status: "Opened", difficolta: 2, durata: 30}]->(Saulire:Piste {piste: "Saulire"}),
+
+CREATE (Cherferie:Piste {piste: "Cherferie"})-[:PATH {piste: "Bumpy Run", status: "Opened", difficolta: 3, durata: 20}]->(BumpyRun:Piste {piste: "Bumpy Run"}),
+
+CREATE (FunnyRun:Piste {piste: "Funny Run"})-[:PATH {piste: "Lièvre", status: "Opened", difficolta: 4, durata: 40}]->(Lièvre:Piste {piste: "Lièvre"}),
+
+CREATE (ColDeLaLoze:Piste {piste: "Col De La Loze"})-[:PATH {piste: "La piste des nuits", status: "Closed", difficolta: 2, durata: 46}]->(LaPisteDesNuits:Piste {piste: "La piste des nuits"}),
+
+CREATE (Snowpark:Piste {piste: "Snowpark"})-[:PATH {piste: "Plan Des Mains", status: "Opened", difficolta: 2, durata: 52}]->(PlanDesMains:Piste {piste: "Plan Des Mains"}),
+
+CREATE (PlanDesMains:Piste {piste: "Plan Des Mains"})-[:PATH {piste: "Plan Des Mains", status: "Opened", difficolta: 3, durata: 34}]->(PlanDesMains:Piste {piste: "Plan Des Mains"}), -> corregir
+
+CREATE (Cherferie:Piste {piste: "Cherferie"})-[:PATH {piste: "Bumpy run", status: "Opened", difficolta: 3, durata: 23}]->(BumpyRun:Piste {piste: "Bumpy run"}),
+
+CREATE (MontVallon:Piste {piste: "Mont Vallon"})-[:PATH {piste: "Plan Des Mains", status: "Opened", difficolta: 3, durata: 35}]->(PlanDesMains:Piste {piste: "Plan Des Mains"}),
+
+CREATE (CouloirTournier:Piste {piste: "Couloir Tournier"})-[:PATH {piste: "Le Rond Point", status: "Opened", difficolta: 3, durata: 25}]->(LeRondPoint:Piste {piste: "Le Rond Point"}),
+
+CREATE (PasDuLac:Piste {piste: "Pas Du Lac"})-[:PATH {piste: "Saulire", status: "Opened", difficolta: 2, durata: 15}]->(Saulire:Piste {piste: "Saulire"}),
+
+CREATE (Cherferie:Piste {piste: "Cherferie"})-[:PATH {piste: "Funny Run", status: "Opened", difficolta: 2, durata: 15}]->(FunnyRun:Piste {piste: "Funny Run"}),
+
+CREATE (Tougnete:Piste {piste: "Tougnete"})-[:PATH {piste: "Speedy run", status: "Opened", difficolta: 3, durata: 17}]->(SpeedyRun:Piste {piste: "Speedy run"}),
+
+CREATE (Perdrix:Piste {piste: "Perdrix"})-[:PATH {piste: "Truite", status: "Closed", difficolta: 3, durata: 12}]->(Truite:Piste {piste: "Truite"})
+
+CREATE (Dahu:Piste {piste: "Dahu"})-[:PATH {piste: "Perdrix", status: "Opened", difficolta: 3, durata: 56}]->(Perdrix:Piste {piste: "Perdrix"}),
+
+--------------------------------------
+
+
+CREATE (PasDuLac:Piste {piste: "Pas Du Lac"})-[:PATH {piste: "Chamois", status: "Closed", difficolta: 4, durata: 23}]->(Chamois:Piste {piste: "Chamois"}),
+
+CREATE (Face:Piste {piste: "Face"})-[:PATH {piste: "Villages", status: "Closed", difficolta: 3, durata: 45}]->(Villages:Piste {piste: "Villages"}),
+
+CREATE (Tougnete:Piste {piste: "Tougnete"})-[:PATH {piste: "Combes", status: "Opened", difficolta: 3, durata: 25}]->(Combes:Piste {piste: "Combes"}),
+
+CREATE (LeRondPoint:Piste {piste: "Le Rond Point"})-[:PATH {piste: "La Chaudanne", status: "Opened", difficolta: 2, durata: 20}]->(LaChaudanne:Piste {piste: "La Chaudanne"}),
+
+CREATE (Tougnete:Piste {piste: "Tougnete"})-[:PATH {piste: "Speedy run", status: "Opened", difficolta: 4, durata: 15}]->(SpeedyRun:Piste {piste: "Speedy run"}),
+
+CREATE (FunnyRun:Piste {piste: "Funny Run"})-[:PATH {piste: "Funny Run", status: "Opened", difficolta: 1, durata: 30}]->(FunnyRun:Piste {piste: "Funny Run"}),--> corregir
+
+CREATE (FunnyRun:Piste {piste: "Funny Run"})-[:PATH {piste: "Lièvre", status: "Closed", difficolta: 3, durata: 36}]->(Lièvre:Piste {piste: "Lièvre"}),
+
+CREATE (RocDeFer:Piste {piste: "Roc de Fer"})-[:PATH {piste: "Gélinotte", status: "Opened", difficolta: 4, durata: 26}]->(Gélinotte:Piste {piste: "Gélinotte"}),
+
+CREATE (Crêtes:Piste {piste: "Crêtes"})-[:PATH {piste: "Speedy run", status: "Opened", difficolta: 2, durata: 45}]->(SpeedyRun:Piste {piste: "Speedy run"}),
+
+CREATE (LeRondPoint:Piste {piste: "Le Rond Point"})-[:PATH {piste: "Altiport", status: "Opened", difficolta: 1, durata: 42}]->(Altiport:Piste {piste: "Altiport"}),
+
+CREATE (LeRoc:Piste {piste: "Le roc"})-[:PATH {piste: "Martre", status: "Opened", difficolta: 3, durata: 57}]->(Martre:Piste {piste: "Martre"}),
+
+CREATE (FunnyRun:Piste {piste: "Funny Run"})-[:PATH {piste: "Bump'N'Jump", status: "Opened", difficolta: 1, durata: 58}]->(BumpNJump:Piste {piste: "Bump'N'Jump"}),
+
+CREATE (DentDeBurgin:Piste {piste: "Dent De Burgin"})-[:PATH {piste: "Rhodos", status: "Opened", difficolta: 2, durata: 36}]->(Rhodos:Piste {piste: "Rhodos"}),
+
+CREATE (FunnyRun:Piste {piste: "Funny Run"})-[:PATH {piste: "La Chaudanne", status: "Opened", difficolta: 2, durata: 53}]->(LaChaudanne:Piste {piste: "La Chaudanne"}),
+
+CREATE (Niverolle:Piste {piste: "Niverolle"})-[:PATH {piste: "Aigle", status: "Opened", difficolta: 4, durata: 39}]->(Aigle:Piste {piste: "Aigle"}),
+
+CREATE (Caves:Piste {piste: "Caves"})-[:PATH {piste: "Speedy run", status: "Opened", difficolta: 2, durata: 42}]->(SpeedyRun:Piste {piste: "Speedy run"}),
+
+CREATE (Choucas:Piste {piste: "Choucas"})-[:PATH {piste: "Roc de Fer", status: "Opened", difficolta: 3, durata: 41}]->(RocDeFer:Piste {piste: "Roc de Fer"}),
+
+CREATE(3 Marches:Piste {piste: "3 Marches"})-[:PATH{piste:"Jn'bee", status: "Opened", difficolta: 4, durata: 38}]->(Jn'bee:Piste {piste: "Jn'bee"}),---> CORREGIR
+
+
+
+CREATE (Ibex:Piste {piste: "Ibex"})-[:PATH {
+  piste: "Sittelle",
+  status: "Opened",
+  difficolta: 2,
+  durata: 36
+}]->(Sittelle:Piste {piste: "Sittelle"});
+
+CREATE (MontDeLaChalle:Piste {piste: "Mont De La Challe"})-[:PATH {
+  piste: "Fouine",
+  status: "Opened",
+  difficolta: 3,
+  durata: 48
+}]->(Fouine:Piste {piste: "Fouine"});
+
+CREATE (ValDeThorens:Piste {piste: "Val de Thorens"})-[:PATH {
+  piste: "Plan Des Mains",
+  status: "Opened",
+  difficolta: 2,
+  durata: 47
+}]->(PlanDesMains:Piste {piste: "Plan Des Mains"});
+
+CREATE (Combes:Piste {piste: "Combes"})-[:PATH {
+  piste: "Arolles",
+  status: "Opened",
+  difficolta: 1,
+  durata: 40
+}]->(Arolles:Piste {piste: "Arolles"});
+
+CREATE (SpeedyRun:Piste {piste: "Speedy Run"})-[:PATH {
+  piste: "La Chaudanne",
+  status: "Opened",
+  difficolta: 2,
+  durata: 13
+}]->(LaChaudanne:Piste {piste: "La Chaudanne"});
+
+CREATE (PasDuLac:Piste {piste: "Pas du Lac"})-[:PATH {
+  piste: "Aigle",
+  status: "Opened",
+  difficolta: 3,
+  durata: 18
+}]->(Aigle:Piste {piste: "Aigle"});
+
+CREATE (Blanchot:Piste {piste: "Blanchot"})-[:PATH {
+  piste: "Rhodos",
+  status: "Opened",
+  difficolta: 2,
+  durata: 26
+}]->(Rhodos:Piste {piste: "Rhodos"});
+
+CREATE (PasDuLac:Piste {piste: "Pas du Lac"})-[:PATH {
+  piste: "La Chaudanne",
+  status: "Opened",
+  difficolta: 3,
+  durata: 45
+}]->(LaChaudanne:Piste {piste: "La Chaudanne"});
+
+CREATE (3Marches:Piste {piste: "3 Marches"})-[:PATH {
+  piste: "Sittelle",
+  status: "Opened",
+  difficolta: 3,
+  durata: 22
+}]->(Sittelle:Piste {piste: "Sittelle"}); --> CORREGIR
+
+CREATE (PlanDesMains:Piste {piste: "Plan Des Mains"})-[:PATH {
+  piste: "Méribel Mottaret ",
+  status: "Opened",
+  difficolta: 2,
+  durata: 20
+}]->(MéribelMottaret:Piste {piste: "Méribel Mottaret "});
+
+CREATE (PasDuLac:Piste {piste: "Pas du Lac"})-[:PATH {
+  piste: "Aigle",
+  status: "Opened",
+  difficolta: 3,
+  durata: 53
+}]->(Aigle:Piste {piste: "Aigle"});
+
+CREATE (Snowpark:Piste {piste: "Snowpark"})-[:PATH {
+  piste: "Snowpark",
+  status: "Opened",
+  difficolta: 2,
+  durata: 39
+}]->(Snowpark:Piste {piste: "Snowpark"}); --> CORREGIR PARA RELACIONES QUE VAN DE UNO MISMO A SI MISMO
+
+
+CREATE (Snowpark:Piste {piste: "Snowpark"})-[:PATH {
+  piste: "Snowpark",
+  status: "Opened",
+  difficolta: 2,
+  durata: 42
+}]->(Snowpark:Piste {piste: "Snowpark"});
+
+CREATE (Snowpark:Piste {piste: "Snowpark"})-[:PATH {
+  piste: "Snowpark",
+  status: "Opened",
+  difficolta: 2,
+  durata: 41
+}]->(Snowpark:Piste {piste: "Snowpark"});
+
+CREATE (Snowpark:Piste {piste: "Snowpark"})-[:PATH {
+  piste: "Snowpark",
+  status: "Opened",
+  difficolta: 4,
+  durata: 38
+}]->(Snowpark:Piste {piste: "Snowpark"});
+
+CREATE (Snowpark:Piste {piste: "Snowpark"})-[:PATH {
+  piste: "Snowpark",
+  status: "Opened",
+  difficolta: 2,
+  durata: 36
+}]->(Snowpark:Piste {piste: "Snowpark"});
+
+CREATE (Snowpark:Piste {piste: "Snowpark"})-[:PATH {
+  piste: "Snowpark",
+  status: "Opened",
+  difficolta: 3,
+  durata: 48
+}]->(Snowpark:Piste {piste: "Snowpark"});
+
+CREATE (SpeedyRun:Piste {piste: "Speedy Run"})-[:PATH {
+  piste: "Truite",
+  status: "Opened",
+  difficolta: 1,
+  durata: 47
+}]->(Truite:Piste {piste: "Truite"});
+
+CREATE (Slalom:Piste {piste: "Slalom"})-[:PATH {
+  piste: "Altiport",
+  status: "Opened",
+  difficolta: 1,
+  durata: 40
+}]->(Altiport:Piste {piste: "Altiport"});
+
+CREATE (Fouine:Piste {piste: "Fouine"})-[:PATH {
+  piste: "Speedy run",
+  status: "Opened",
+  difficolta: 3,
+  durata: 13
+}]->(SpeedyRun:Piste {piste: "Speedy run"});
+
+CREATE (Gélinotte:Piste {piste: "Gélinotte"})-[:PATH {
+  piste: "Le Raffort",
+  status: "Opened",
+  difficolta: 2,
+  durata: 18
+}]->(LeRaffort:Piste {piste: "Le Raffort"});
+
+CREATE (PasDuLac:Piste {piste: "Pas du Lac"})-[:PATH {
+  piste: "Renardeau",
+  status: "Opened",
+  difficolta: 3,
+  durata: 26
+}]->(Renardeau:Piste {piste: "Renardeau"});
+
+CREATE (Blanchot:Piste {piste: "Blanchot"})-[:PATH {
+  piste: "Slalom",
+  status: "Opened",
+  difficolta: 2,
+  durata: 45
+}]->(Slalom:Piste {piste: "Slalom"});
+
+CREATE (Blanchot:Piste {piste: "Blanchot"})-[:PATH {
+  piste: "Le Rond Point",
+  status: "Opened",
+  difficolta: 1,
+  durata: 22
+}]->(LeRondPoint:Piste {piste: "Le Rond Point"});
+
+CREATE (RocDeFer:Piste {piste: "Roc de Fer"})-[:PATH {
+  piste: "La Chaudanne",
+  status: "Opened",
+  difficolta: 2,
+  durata: 20
+}]->(LaChaudanne:Piste {piste: "La Chaudanne"});
+
+CREATE (PasDuLac:Piste {piste: "Pas du Lac"})-[:PATH {
+  piste: "Aigle",
+  status: "Opened",
+  difficolta: 4,
+  durata: 34
+}]->(Aigle:Piste {piste: "Aigle"});
+
+CREATE (Ibex:Piste {piste: "Ibex"})-[:PATH {
+  piste: "Snowpark",
+  status: "Opened",
+  difficolta: 2,
+  durata: 26
+}]->(Snowpark:Piste {piste: "Snowpark"});
+
+CREATE (BumpyRun:Piste {piste: "Bumpy Run"})-[:PATH {
+  piste: "Speedy Run",
+  status: "Closed",
+  difficolta: 3,
+  durata: 17
+}]->(SpeedyRun:Piste {piste: "Speedy Run"});
+
+CREATE (Aigle:Piste {piste: "Aigle"})-[:PATH {
+  piste: "Arolles",
+  status: "Forecast",
+  difficolta: 3,
+  durata: 36
+}]->(Arolles:Piste {piste: "Arolles"});
+
+CREATE (ColDeLaLoze:Piste {piste: "Col de la Loze"})-[:PATH {
+  piste: "Slalom",
+  status: "Opened",
+  difficolta: 4,
+  durata: 33
+}]->(Slalom:Piste {piste: "Slalom"});
+
+CREATE (Chalets:Piste {piste: "Chalets"})-[:PATH {
+  piste: "La Chaudanne",
+  status: "Opened",
+  difficolta: 1,
+  durata: 28
+}]->(LaChaudanne:Piste {piste: "La Chaudanne"});
+
+CREATE (ValDeThorens:Piste {piste: "Val de Thorens"})-[:PATH {
+  piste: "Bouvreuil",
+  status: "Opened",
+  difficolta: 3,
+  durata: 30
+}]->(Bouvreuil:Piste {piste: "Bouvreuil"});

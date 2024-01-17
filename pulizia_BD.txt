@@ -1,0 +1,22 @@
+Altre query usate:
+
+Unire 2 nodi ripetuti:
+
+MATCH (n:Piste {piste: 'Speedy Run'})
+WITH collect(n) as nodos
+CALL apoc.refactor.mergeNodes(nodos) YIELD node
+RETURN node;
+
+Identificazione dei nodi duplicati:
+
+MATCH (n:Piste) 
+WITH n.piste as piste, COLLECT(n) AS nodos
+WHERE SIZE(nodos) > 1
+UNWIND nodos[1..] AS nodoDuplicado
+RETURN nodoDuplicado;
+
+Cancelare un nodo con un label specifico:
+
+MATCH (n.Mountain)
+DETACH DELETE n;
+
